@@ -1,2 +1,3 @@
 /* Weird padding issue handler */
 body { padding-top: 54px; }
+@media (min-width: 992px) { body { padding-top: 56px; } }
