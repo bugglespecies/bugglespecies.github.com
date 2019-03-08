@@ -12,7 +12,7 @@ body { padding-top: 54px; }
 	--image-header: #212121;
 }
 
-.buggle-font { font-family: 'Shadows Into Light' !important; }
+h1,h2,h3,h4,h5,.navbar-brand { font-family: 'Shadows Into Light' !important; }
 
 a, a:visited { color: var(--primary-normal); }
 a:hover, a:focus { color: var(--primary-dark); }
