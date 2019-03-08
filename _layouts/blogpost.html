@@ -55,7 +55,7 @@
 			</div>
 		</div>
 	</nav>
-	<!-- Header -->
+	<!-- post -->
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8">
@@ -71,3 +71,16 @@
 					{% endcase %}
 					{{ page.date | date: "of %B, %Y" }}</p>
 				<hr>
+				<img class="img-fluid rounded" src="{{ page.image }}" alt="">
+				<hr>
+				<p>{{ content }}</p>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer class="py-5 bg-dark">
+		<div class="container">
+			<p class="m-0 text-center text-white">Copyright &copy; {{ site.title }} 2019</p>
+		</div>
+	</footer>
+</body>
