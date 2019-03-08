@@ -12,7 +12,7 @@ body { padding-top: 54px; }
 	--image-header: #212121;
 }
 
-.fa,.fas,.far,.fab { padding-top: 15px; padding-bottom: 15px; line-height: 20px; }
+.fa,.fas,.far,.fab { font-size: 20px; }
 
 .navbar-brand { font-family: 'Shadows Into Light' !important; }
 
