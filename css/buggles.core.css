@@ -27,8 +27,8 @@ a:hover, a:focus { color: var(--primary-dark); }
 .text-link, .text-link:visited,.text-primary { color: var(--primary-normal) !important; }
 .text-link:hover, .text-link:focus { color: var(--primary-dark) !important; }
 
-.btn-primary { color: var(--primary-normal) !important; }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active { color: var(--primary-dark) !important; }
+.btn-primary { background-color: var(--primary-normal) !important; }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active { background-color: var(--primary-dark) !important; }
 
 .bg-dark { background-color: var(--back-dark) !important; }
 
