@@ -37,21 +37,21 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="{{ site.url }}/twitter" title="Follow us on Twitter!"><i class="fab fa-twitter"></i></a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown">Blog</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+							<a class="dropdown-item" href="{{ site.url }}/blog">All Posts</a>
+						</div>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="{{ site.url }}/discord" title="Join our Discord!"><i class="fab fa-discord"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="mailto:niiniibugglequeen@gmail.com" title="Email Us!"><i class="fas fa-envelope"></i></a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<!-- Header -->
-	<div class="jumbotron text-center" style="background: url(assets/banner.jpg);">
+	<div class="jumbotron text-center" style="background: url(img/banner.jpg);">
 		<h1 class="text-primary buggle-font">{{ site.title }}</h1>
 		<p class="lead">{{ site.description }}</p>
 	</div>
