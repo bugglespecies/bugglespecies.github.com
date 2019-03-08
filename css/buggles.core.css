@@ -65,3 +65,12 @@ a:hover, a:focus { color: var(--primary-dark); }
 	visibility: visible;
 }
 
+/* Break Line Handling */
+hr {
+	display: block;
+    	height: 1px;
+    	border: 0;
+    	border-top: 1px solid #FFFFFF;
+    	margin: 1em 0;
+    	padding: 0; 
+}
