@@ -77,11 +77,11 @@
 				<hr>
 			</div>
 			<div class="col-md-4">
-				<div class="card my-4 bg-dark">
+				<div class="card my-4 bg-darker">
 					<h5 class="card-header">Other Posts</h5>
 					<ul class="list-group list-group-flush">
 						{% for post in site.posts limit:25 %}
-						<li class="list-group-item">
+						<li class="list-group-item bg-dark">
 							<a href="{{ post.url }}">
 								<span>{{ post.title }}</span>
 								<br>
