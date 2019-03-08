@@ -36,6 +36,6 @@ a:hover, a:focus { color: var(--primary-dark); }
 
 .bg-darker { background-color: var(--back-darker) !important; }
 
-.glyph { font-size: 50px; }
+.glyph { font-size: 40px; }
 
 .dropdown-menu { background-color: var(--back-dark) !important; color: var(--primary-normal) !important; }
