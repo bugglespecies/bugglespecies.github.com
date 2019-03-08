@@ -114,9 +114,9 @@
 	<div class="container text-center bg-dark">
 		<h2 class="text-primary buggle-font">The Latest News</h2>
 		<div class="text-left">
-			<div class="card-group">
+			<div class="card-deck">
 				{% for post in site.posts limit:8 %}
-				<div class="card">
+				<div class="card bg-darker">
 					<img class="card-img-top" src="{{ post.image }}" alt="{{ post.title }}">
 					<div class="card-body">
 						<h5 class="card-title text-primary">{{ post.title }}</h5>
