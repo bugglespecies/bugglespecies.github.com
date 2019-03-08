@@ -114,30 +114,30 @@
 	<div class="container text-center bg-dark">
 		<h2 class="text-primary buggle-font">The Latest News</h2>
 		<div class="text-left">
-			{% for post in site.posts limit:8 %}
-			<div class="card flex-row flex-wrap bg-darker">
-				<div class="card-header border-0" style="padding: 0;">
-					<img class="rounded" src="{{ post.image }}" alt="{{ post.title }}" style="width: 200px; height: 200px;">
+			<div class="card-group">
+				{% for post in site.posts limit:8 %}
+				<div class="card">
+					<img class="card-img-top" src="{{ post.image }}" alt="{{ post.title }}">
+					<div class="card-body">
+						<h5 class="card-title text-primary">{{ post.title }}</h5>
+						<p class="card-text">{{ post.summary }}</p>
+						<a class="btn btn-primary text-dark" href="{{ post.url }}">Read More &rarr;</a>
+					</div>
+					<div class="card-footer text-muted">
+						<p class="card-text">
+							Posted: {% assign day = post.date | date: "%-d" %}
+								{% case day %}
+									{% when '1' or '21' or '31' %}{{ day }}st
+									{% when '2' or '22' %}{{ day }}nd
+									{% when '3' or '23' %}{{ day }}rd
+									{% else %}{{ day }}th
+								{% endcase %}
+							{{ post.date | date: "of %B, %Y" }}
+						</p>
+					</div>
 				</div>
-				<div class="card-block px-2">
-					<h4 class="card-title text-primary">{{ post.title }}</h4>
-					<p class="card-text">Author: <span class="text-primary">{{ post.author }}</span></p>
-					<p class="card-text">{{ post.summary }}</p>
-					<a class="btn btn-primary text-dark" href="{{ post.url }}">Read More &rarr;</a>
-				</div>
-				<div class="w-100"></div>
-				<div class="card-footer w-100 text-muted">
-					Posted: {% assign day = post.date | date: "%-d" %}
-						{% case day %}
-							{% when '1' or '21' or '31' %}{{ day }}st
-							{% when '2' or '22' %}{{ day }}nd
-							{% when '3' or '23' %}{{ day }}rd
-							{% else %}{{ day }}th
-						{% endcase %}
-					{{ post.date | date: "of %B, %Y" }}
-				</div>
+				{% endfor %}
 			</div>
-			{% endfor %}
 		</div>
 	</div>
 	<!-- Footer -->
