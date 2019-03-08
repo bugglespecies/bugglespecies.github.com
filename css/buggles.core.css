@@ -11,3 +11,6 @@ body { padding-top: 54px; }
 	--back-darker: #212121;
 	--image-header: #212121;
 }
+
+a, a:visited { color: var(--primary-normal); }
+a:hover, a:focus { color: var(--primary-dark); }
