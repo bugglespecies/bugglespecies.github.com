@@ -12,6 +12,10 @@ body { padding-top: 54px; }
 	--image-header: #212121;
 }
 
+
+a, a:visited { color: var(--primary-normal); }
+a:hover, a:focus { color: var(--primary-dark); }
+
 .dropdown-toggle:after { content: none }
 
 .fa,.fas,.far,.fab { font-size: 20px; }
@@ -20,12 +24,14 @@ body { padding-top: 54px; }
 
 .buggle-font { font-family: 'Shadows Into Light' !important; }
 
-a, a:visited { color: var(--primary-normal); }
-a:hover, a:focus { color: var(--primary-dark); }
-
 .text-link, .text-link:visited,.text-primary { color: var(--primary-normal) !important; }
 .text-link:hover, .text-link:focus { color: var(--primary-dark) !important; }
+
+.btn-primary { color: var(--primary-normal) !important; }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active { color: var(--primary-dark) !important; }
 
 .bg-dark { background-color: var(--back-dark) !important; }
 
 .bg-darker { background-color: var(--back-darker) !important; }
+
+.glyph { font-size: 50px; }
