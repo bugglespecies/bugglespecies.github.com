@@ -116,7 +116,7 @@
 		<div class="text-left">
 			<div class="card-deck">
 				{% for post in site.posts limit:8 %}
-				<div class="card bg-darker col-sm-3">
+				<div class="card bg-darker col-md-3" style="padding-left: 0; padding-right: 0">
 					<img class="card-img-top" src="{{ post.image }}" alt="{{ post.title }}" style="width: 100%;">
 					<div class="card-body">
 						<h5 class="card-title text-primary">{{ post.title }}</h5>
