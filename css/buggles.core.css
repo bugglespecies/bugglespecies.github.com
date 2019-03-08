@@ -26,7 +26,7 @@ a:hover, a:focus { color: var(--primary-dark); }
 
 .text-link, .text-link:visited,.text-primary { color: var(--primary-normal) !important; }
 .text-link:hover, .text-link:focus { color: var(--primary-dark) !important; }
-.text-dark { color: #0D0D0D; }
+.text-dark { color: #0D0D0D !important; }
 
 .btn { border: 0 !important }
 .btn-primary { background-color: var(--primary-normal) !important; }
