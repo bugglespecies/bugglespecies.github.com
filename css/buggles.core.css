@@ -16,12 +16,13 @@ body { padding-top: 54px; }
 
 .navbar-brand { font-family: 'Shadows Into Light' !important; }
 
+.buggle-font { font-family: 'Shadows Into Light' !important; }
+
 a, a:visited { color: var(--primary-normal); }
 a:hover, a:focus { color: var(--primary-dark); }
 
 .text-link, .text-link:visited,.text-primary { color: var(--primary-normal) !important; }
 .text-link:hover, .text-link:focus { color: var(--primary-dark) !important; }
-
 
 .bg-dark { background-color: var(--back-dark) !important; }
 
