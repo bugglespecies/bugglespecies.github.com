@@ -62,12 +62,12 @@
 				<h1 class="mt-4 text-primary buggle-font">{{ page.title }}</h1>
 				<p class="lead">by <span class="text-primary">{{ page.author }}</span></p>
 				<hr>
-				<p>Posted on {% assign day = post.date | date: "%-d" %}
+				<p>Posted on {% assign day = page.date | date: "%-d" %}
 					{% case day %}
 						{% when '1' or '21' or '31' %}{{ day }}st
 						{% when '2' or '22' %}{{ day }}nd
 						{% when '3' or '23' %}{{ day }}rd
 						{% else %}{{ day }}th
 					{% endcase %}
-					{{ post.date | date: "of %B, %Y" }}</p>
+					{{ page.date | date: "of %B, %Y" }}</p>
 				<hr>
