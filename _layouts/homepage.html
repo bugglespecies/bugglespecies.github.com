@@ -105,8 +105,8 @@
 		<div class="text-left">
 			{% for post in site.posts limit:8 %}
 			<div class="card flex-row flex-wrap bg-darker">
-				<div class="card-header border-0">
-					<img src="{{ post.image }}" alt="{{ post.title }}" style="width: 200px; height: 200px;">
+				<div class="card-header border-0" style="padding: 0;">
+					<img class="rounded" src="{{ post.image }}" alt="{{ post.title }}" style="width: 200px; height: 200px;">
 				</div>
 				<div class="card-block px-2">
 					<h4 class="card-title text-primary">{{ post.title }}</h4>
