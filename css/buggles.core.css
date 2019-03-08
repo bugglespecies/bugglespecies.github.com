@@ -12,30 +12,52 @@ body { padding-top: 54px; }
 	--image-header: #212121;
 }
 
-
+/* Basic Link Handling */
 a, a:visited { color: var(--primary-normal); }
 a:hover, a:focus { color: var(--primary-dark); }
 
+/* Remove All Menu Carats */
 .dropdown-toggle:after { content: none }
 
-.fa,.fas,.far,.fab { font-size: 20px; }
-
+/* Buggle Custom Font */
 .navbar-brand { font-family: 'Shadows Into Light' !important; }
-
 .buggle-font { font-family: 'Shadows Into Light' !important; }
 
+/* Text Variations */
 .text-link, .text-link:visited,.text-primary { color: var(--primary-normal) !important; }
 .text-link:hover, .text-link:focus { color: var(--primary-dark) !important; }
 .text-dark { color: #0D0D0D !important; }
 
+/* Custom Button Stylings */
 .btn { border: 0 !important }
 .btn-primary { background-color: var(--primary-normal) !important; }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active { background-color: var(--primary-dark) !important; }
 
+/* Background Handling */
 .bg-dark { background-color: var(--back-dark) !important; }
-
 .bg-darker { background-color: var(--back-darker) !important; }
 
+/* Larger FontAwesome Icons */
 .glyph { font-size: 40px; }
 
+/* Dropdown Menu Handling */
 .dropdown-menu { background-color: var(--back-dark) !important; color: var(--primary-normal) !important; }
+
+/* Slide Animation */
+@keyframes slide { 
+	0% { opacity: 0; transform: translateY(70%); }
+	100% { opacity: 1; transform: translateY(0%); }
+}
+@-webkit-keyframes slide { 
+	0% { opacity: 0; -webkit-transform: translateY(70%); }
+	100% { opacity: 1; -webkit-transform: translateY(0%); }
+}
+.slideanim { visibility: hidden; }
+.slide {
+	animation-name: slide;
+	animation-duration: 1s;
+ 	-webkit-animation-name: slide;
+	-webkit-animation-duration: 1s;
+	visibility: visible;
+}
+
