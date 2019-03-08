@@ -19,6 +19,13 @@ a:hover, a:focus { color: var(--primary-dark); }
 /* Remove All Menu Carats */
 .dropdown-toggle:after { content: none }
 
+/* Dropdown Menu Handling */
+.dropdown-menu { background-color: var(--back-dark) !important; color: var(--primary-normal) !important; }
+.dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active {
+	background-color: var(--back-darker);
+	color: var(--primary-dark);
+}
+
 /* Buggle Custom Font */
 .navbar-brand { font-family: 'Shadows Into Light' !important; }
 .buggle-font { font-family: 'Shadows Into Light' !important; }
@@ -39,9 +46,6 @@ a:hover, a:focus { color: var(--primary-dark); }
 
 /* Larger FontAwesome Icons */
 .glyph { font-size: 40px; }
-
-/* Dropdown Menu Handling */
-.dropdown-menu { background-color: var(--back-dark) !important; color: var(--primary-normal) !important; }
 
 /* Slide Animation */
 @keyframes slide { 
