@@ -102,15 +102,19 @@
 	<!-- Latest News -->
 	<div class="container text-center bg-dark">
 		<h2 class="text-primary buggle-font">The Latest News</h2>
-		<div class="row text-left">
+		<div class="text-left">
 			{% for post in site.posts limit:8 %}
-			<div class="col-sm-12" style="border: 1px solid var(--primary-light); border-radius: 5px;">
-				<img class="img-left" src="{{ post.image }}" alt="{{ post.title }}">
-				<h4 class="text-primary">{{ post.title }}</h4>
-				<p class="text-muted">Posted By <span class="text-primary">{{ post.author }}</span></p>
-				<p class="text-lead">{{ post.summary }}</p>
-				<br>
-				<a class="btn btn-primary text-dark" href="{{ post.url }}">Read More &rarr;</a>
+			<div class="row">
+				<div class="col-sm-4">
+					<img class="img-left" src="{{ post.image }}" alt="{{ post.title }}">
+				</div>
+				<div class="col-sm-8">
+					<h4 class="text-primary">{{ post.title }}</h4>
+					<p class="text-muted">Posted By <span class="text-primary">{{ post.author }}</span></p>
+					<p class="text-lead">{{ post.summary }}</p>
+					<br>
+					<a class="btn btn-primary text-dark" href="{{ post.url }}">Read More &rarr;</a>
+				</div>
 			</div>
 			{% endfor %}
 		</div>
