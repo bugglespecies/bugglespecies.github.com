@@ -14,3 +14,6 @@ body { padding-top: 54px; }
 
 a, a:visited { color: var(--primary-normal); }
 a:hover, a:focus { color: var(--primary-dark); }
+
+.text-link, .text-link:visited { color: var(--primary-normal) !important; }
+.text-link:hover, .text-link:focus { color: var(--primary-dark) !important; }
