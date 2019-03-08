@@ -76,6 +76,22 @@
 				<p>{{ content }}</p>
 				<hr>
 			</div>
+			<div class="col-md-4">
+				<div class="card my-4 bg-dark">
+					<h5 class="card-header">Other Posts</h5>
+					<ul class="list-group list-group-flush">
+						{% for post in site.posts limit:25 %}
+						<li class="list-group-item">
+							<a href="{{ post.url }}">
+								<span>{{ post.title }}</span>
+								<br>
+								<span class="text-muted">{{ post.date | date_to_string }}</span>
+							</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!-- Footer -->
