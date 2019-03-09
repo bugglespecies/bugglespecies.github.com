@@ -5,6 +5,8 @@ description: Join us on our Discord Server!
 icon: fab fa-discord
 image: /img/social.png
 ---
+<div class="row">
+<div class="col-md-6">
 <h4 class="text-primary">Our Server Rules</h4>
 <table class="table" style="border: 1px solid #FFFFFF">
 	<tbody>
@@ -49,6 +51,8 @@ image: /img/social.png
 		</tr>
 	</tbody>
 </table>
+</div>
+<iframe class="col-md-6" src="https://discordapp.com/widget?id=541806481683644438&theme=dark" allowtransparency="true" frameborder="0"></iframe>
 <br><br>
 <center>
 <a class="btn btn-primary text-dark" href="https://discord.gg/zs7zayp" target="_blank">Join Our Discord!</a>
