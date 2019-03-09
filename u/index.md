@@ -5,4 +5,4 @@ description: The Buggle URL Shortener
 icon: fas fa-link
 image: /img/social.png
 ---
-<script type="text/javascript" src="/u/head.core.js"></script>
+<meta http-equiv="refresh" content="0;URL='{{ site.url }}'>
