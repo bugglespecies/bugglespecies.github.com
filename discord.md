@@ -5,6 +5,7 @@ summary: Join us on our Discord Server!
 icon: fab fa-discord
 image: /img/social.png
 ---
+<h4 class="text-primary">Our Server Rules</h4>
 <table class="table">
 	<tbody>
 		<tr>
