@@ -74,3 +74,6 @@ hr {
     	margin: 1em 0;
     	padding: 0; 
 }
+
+/* Discord Tag */
+.discord-tag { background-color: #202225 !important; color: #7289DA !important; }
