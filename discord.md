@@ -27,5 +27,9 @@ image: /img/social.png
 			<th scope="row">5.</th>
 			<th>Use common sense, not everything is spelled out but try not to jump to conclusions and start arguments.</th>
 		</tr>
+		<tr>
+			<th scope="row">6.</th>
+			<th>Keep things to their appropriate channel. Ex: Roleplay in the roleplay channel, art to one of the art channels, and memes to one of the meme channels.</th>
+		</tr>
 	</tbody>
 </table>
