@@ -40,7 +40,7 @@ let getrandom = () => {
 };
 
 let genhash = () => {
-    if (document.getElementById("custominput").value == "") {
+    if (!document.getElementById("custominput") || document.getElementById("custominput").value == "") {
         window.location.hash = getrandom();
         check_is_unique();
     } else {
