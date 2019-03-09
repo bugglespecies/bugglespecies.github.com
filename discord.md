@@ -7,7 +7,7 @@ image: /img/social.png
 ---
 <div class="row">
 <div class="col-md-6">
-<h4 class="text-primary">Our Server Rules</h4>
+<h3 class="text-primary">Our Server Rules</h3>
 <table class="table" style="border: 1px solid #FFFFFF">
 	<tbody>
 		<tr>
@@ -53,6 +53,7 @@ image: /img/social.png
 </table>
 </div>
 <iframe class="col-md-6" src="https://discordapp.com/widget?id=541806481683644438&theme=dark" allowtransparency="true" frameborder="0"></iframe>
+</div>
 <br><br>
 <center>
 <a class="btn btn-primary text-dark" href="https://discord.gg/zs7zayp" target="_blank">Join Our Discord!</a>
