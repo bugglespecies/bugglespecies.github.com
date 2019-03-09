@@ -7,7 +7,7 @@ image: /img/social.png
 ---
 <div class="row">
 	<div class="col-md-6">
-		<h3 class="text-primary">Our Server Rules</h3>
+		<h2 class="text-primary">Our Server Rules</h2>
 		<table class="table" style="border: 1px solid #FFFFFF">
 			<tbody>
 				<tr>
