@@ -10,7 +10,7 @@ image: /img/social.png
 	<tbody>
 		<tr>
 			<td scope="row">1.</td>
-			<td>Don't impersonate otder Buggles, especially tde Queen and staff.</td>
+			<td>Don't impersonate other Buggles, especially the Queen and staff.</td>
 		</tr>
 		<tr>
 			<td scope="row">2.</td>
@@ -18,29 +18,29 @@ image: /img/social.png
 		</tr>
 		<tr>
 			<td scope="row">3.</td>
-			<td>Please keep all not safe for work content in tde NSFK channel.</td>
+			<td>Please keep all not safe for work content in the NSFK channel.</td>
 		</tr>
 		<tr>
 			<td scope="row">4.</td>
-			<td>No nudity in tde server.</td>
+			<td>No nudity in the server.</td>
 		</tr>
 		<tr>
 			<td scope="row">5.</td>
-			<td>Use common sense, not everytding is spelled out but try not to jump to 
+			<td>Use common sense, not everything is spelled out but try not to jump to 
 			conclusions and start arguments.</td>
 		</tr>
 		<tr>
 			<td scope="row">6.</td>
-			<td>Keep tdings to tdeir appropriate channel. Ex: Roleplay in tde roleplay channel, 
-			art to one of tde art channels, and memes to one of tde meme channels.</td>
+			<td>Keep things to their appropriate channel. Ex: Roleplay in the roleplay channel, 
+			art to one of the art channels, and memes to one of the meme channels.</td>
 		</tr>
 		<tr>
 			<td scope="row">7.</td>
-			<td>Don't go around starting fights witd otder species.</td>
+			<td>Don't go around starting fights with other species.</td>
 		</tr>
 		<tr>
 			<td scope="row">8.</td>
-			<td>Please follow tde basic guidelines on how to make a Buggle and go to 
+			<td>Please follow the basic guidelines on how to make a Buggle and go to 
 			<span class="discord-tag">#taken-buggles</span> to see if your Buggle idea is available.</td>
 		</tr>
 		<tr>
