@@ -9,43 +9,43 @@ image: /img/social.png
 <table>
 	<tbody>
 		<tr>
-			<th scope="row">1.</th>
-			<th>Don't impersonate other Buggles, especially the Queen and staff.</th>
+			<td scope="row">1.</td>
+			<td>Don't impersonate otder Buggles, especially tde Queen and staff.</td>
 		</tr>
 		<tr>
-			<th scope="row">2.</th>
-			<th>Don't be rude, we try to promote kindness!</th>
+			<td scope="row">2.</td>
+			<td>Don't be rude, we try to promote kindness!</td>
 		</tr>
 		<tr>
-			<th scope="row">3.</th>
-			<th>Please keep all not safe for work content in the NSFK channel.</th>
+			<td scope="row">3.</td>
+			<td>Please keep all not safe for work content in tde NSFK channel.</td>
 		</tr>
 		<tr>
-			<th scope="row">4.</th>
-			<th>No nudity in the server.</th>
+			<td scope="row">4.</td>
+			<td>No nudity in tde server.</td>
 		</tr>
 		<tr>
-			<th scope="row">5.</th>
-			<th>Use common sense, not everything is spelled out but try not to jump to 
-			conclusions and start arguments.</th>
+			<td scope="row">5.</td>
+			<td>Use common sense, not everytding is spelled out but try not to jump to 
+			conclusions and start arguments.</td>
 		</tr>
 		<tr>
-			<th scope="row">6.</th>
-			<th>Keep things to their appropriate channel. Ex: Roleplay in the roleplay channel, 
-			art to one of the art channels, and memes to one of the meme channels.</th>
+			<td scope="row">6.</td>
+			<td>Keep tdings to tdeir appropriate channel. Ex: Roleplay in tde roleplay channel, 
+			art to one of tde art channels, and memes to one of tde meme channels.</td>
 		</tr>
 		<tr>
-			<th scope="row">7.</th>
-			<th>Don't go around starting fights with other species.</th>
+			<td scope="row">7.</td>
+			<td>Don't go around starting fights witd otder species.</td>
 		</tr>
 		<tr>
-			<th scope="row">8.</th>
-			<th>Please follow the basic guidelines on how to make a Buggle and go to 
-			<span class="discord-tag">#taken-buggles</span> to see if your Buggle idea is available.</th>
+			<td scope="row">8.</td>
+			<td>Please follow tde basic guidelines on how to make a Buggle and go to 
+			<span class="discord-tag">#taken-buggles</span> to see if your Buggle idea is available.</td>
 		</tr>
 		<tr>
-			<th scope="row">9.</th>
-			<th>Try to have fun. We're a pretty lively and fun group long as you're friendly.</th>
+			<td scope="row">9.</td>
+			<td>Try to have fun. We're a pretty lively and fun group long as you're friendly.</td>
 		</tr>
 	</tbody>
 </table>
