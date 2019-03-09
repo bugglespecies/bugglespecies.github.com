@@ -1,79 +1,53 @@
-/* Weird padding issue handler */
-body { padding-top: 54px; }
-@media (min-width: 992px) { body { padding-top: 56px; } }
-
-/* Style Roots */
-:root {
-	--primary-normal: #00FF85;
-	--primary-dark: #00BF64;
-	--primary-light: #FFFFFF;
-	--back-dark: #0D0D0D;
-	--back-darker: #212121;
-	--image-header: #212121;
-}
-
-/* Basic Link Handling */
-a, a:visited { color: var(--primary-normal); }
-a:hover, a:focus { color: var(--primary-dark); }
-
-/* Remove All Menu Carats */
-.dropdown-toggle:after { content: none }
-
-/* Dropdown Menu Handling */
-.dropdown-menu { background-color: var(--back-dark) !important; color: var(--primary-normal) !important; }
-.dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active {
-	background-color: var(--back-darker);
-	color: var(--primary-dark);
-}
-
-/* Buggle Custom Font */
-.navbar-brand { font-family: 'Shadows Into Light' !important; }
-.buggle-font { font-family: 'Shadows Into Light' !important; }
-
-/* Text Variations */
-.text-link, .text-link:visited,.text-primary { color: var(--primary-normal) !important; }
-.text-link:hover, .text-link:focus { color: var(--primary-dark) !important; }
-.text-dark { color: #0D0D0D !important; }
-
-/* Custom Button Stylings */
-.btn { border: 0 !important }
-.btn-primary { background-color: var(--primary-normal) !important; }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active { background-color: var(--primary-dark) !important; }
-
-/* Background Handling */
-.bg-dark { background-color: var(--back-dark) !important; }
-.bg-darker { background-color: var(--back-darker) !important; }
-
-/* Larger FontAwesome Icons */
-.glyph { font-size: 40px; }
-
-/* Slide Animation */
-@keyframes slide { 
-	0% { opacity: 0; transform: translateY(70%); }
-	100% { opacity: 1; transform: translateY(0%); }
-}
-@-webkit-keyframes slide { 
-	0% { opacity: 0; -webkit-transform: translateY(70%); }
-	100% { opacity: 1; -webkit-transform: translateY(0%); }
-}
-.slideanim { visibility: hidden; }
-.slide {
-	animation-name: slide;
-	animation-duration: 1s;
- 	-webkit-animation-name: slide;
-	-webkit-animation-duration: 1s;
-	visibility: visible;
-}
-
-/* Break Line Handling */
-hr {
-	display: block;
-    	height: 1px;
-    	border: 0;
-    	border-top: 1px solid #FFFFFF;
-    	margin: 1em 0;
-    	padding: 0; 
-}
-
-/* Discord Tag */
-.discord-tag { background-color: #202225 !important; color: #7289DA !important; padding: 1px; border-radius: 3px; }
+---
+layout: infopage
+title: Our Discord
+summary: Join us on our Discord Server!
+icon: fab fa-discord
+image: /img/social.png
+---
+<h4 class="text-primary">Our Server Rules</h4>
+<table class=>
+	<tbody>
+		<tr>
+			<td scope="row">1.</td>
+			<td>Don't impersonate other Buggles, especially the Queen and staff.</td>
+		</tr>
+		<tr>
+			<td scope="row">2.</td>
+			<td>Don't be rude, we try to promote kindness!</td>
+		</tr>
+		<tr>
+			<td scope="row">3.</td>
+			<td>Please keep all not safe for work content in the NSFK channel.</td>
+		</tr>
+		<tr>
+			<td scope="row">4.</td>
+			<td>No nudity in the server.</td>
+		</tr>
+		<tr>
+			<td scope="row">5.</td>
+			<td>Use common sense, not everything is spelled out but try not to jump to 
+			conclusions and start arguments.</td>
+		</tr>
+		<tr>
+			<td scope="row">6.</td>
+			<td>Keep things to their appropriate channel. Ex: Roleplay in the roleplay channel, 
+			art to one of the art channels, and memes to one of the meme channels.</td>
+		</tr>
+		<tr>
+			<td scope="row">7.</td>
+			<td>Don't go around starting fights with other species.</td>
+		</tr>
+		<tr>
+			<td scope="row">8.</td>
+			<td>Please follow the basic guidelines on how to make a Buggle and go to 
+			<span class="discord-tag">#taken-buggles</span> to see if your Buggle idea is available.</td>
+		</tr>
+		<tr>
+			<td scope="row">9.</td>
+			<td>Try to have fun. We're a pretty lively and fun group long as you're friendly.</td>
+		</tr>
+	</tbody>
+</table>
+<center>
+<a class="btn btn-primary text-dark" href="https://discord.gg/zs7zayp" target="_blank">Join Our Discord!</a>
