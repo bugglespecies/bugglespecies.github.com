@@ -14,12 +14,6 @@ image: /img/social.png
 </div>
 <div class="input-group mb-3">
   <div class="input-group-prepend">
-    <span class="input-group-text text-primary bg-dark" id="custom-prepend">Custom Extension</span>
-  </div>
-  <input id="custominput" type="text" class="form-control bg-darker text-white" placeholder="buggle">
-</div>
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
     <span class="input-group-text text-primary bg-dark" id="result-prepend">Your Short URL</span>
   </div>
   <input id="shortenedURL" type="text" class="form-control bg-darker text-white" placeholder="http://buggle.ml/#buggle">
