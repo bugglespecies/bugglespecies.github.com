@@ -1,7 +1,7 @@
 ---
 layout: infopage
 title: Our Discord
-summary: Join us on our Discord Server!
+description: Join us on our Discord Server!
 icon: fab fa-discord
 image: /img/social.png
 ---
