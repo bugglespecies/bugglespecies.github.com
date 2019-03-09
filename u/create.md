@@ -22,7 +22,7 @@ image: /img/social.png
   <div class="input-group-prepend">
     <span class="input-group-text text-primary bg-dark" id="result-prepend">Your Short URL</span>
   </div>
-  <input id="shortenedURL" type="text" class="form-control bg-darker text-white" placeholder="http://buggle.ml/u/#buggle">
+  <input id="shortenedURL" type="text" class="form-control bg-darker text-white" placeholder="http://buggle.ml/#buggle">
 </div>
 <div class="input-group mb-3">
   <button id="sbtn" class="btn btn-primary text-dark">Shorten!</button>
