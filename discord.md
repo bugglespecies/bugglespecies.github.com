@@ -49,3 +49,5 @@ image: /img/social.png
 		</tr>
 	</tbody>
 </table>
+<center>
+<a class="btn btn-primary text-dark" href="https://discord.gg/zs7zayp" target="_blank">Join Our Discord!</a>
