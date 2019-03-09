@@ -5,6 +5,7 @@ description: The Buggle URL Shortener
 icon: fas fa-link
 image: /img/social.png
 ---
+<script type="text/javascript" src="/u/head.core.js"></script>
 <div class="input-group mb-3">
   <div class="input-group-prepend">
     <span class="input-group-text text-primary bg-dark" id="full-prepend">Full URL</span>
