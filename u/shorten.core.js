@@ -109,10 +109,9 @@ let shorturl = () => {
         document.getElementById("erbox").innerHTML = "❌ Invalid URL";
     } else {
         document.getElementById("erbox").innerHTML = "";
-        if (document.getElementById("custominput").value == "") {
+        if (document.getElementById("custominput") || document.getElementById("custominput").value == "") {
             genhash();
             send_request(longurl);
-
         } else {
             if (cre.test(document.getElementById("custominput").value)) {
                 if (cinp()) {
