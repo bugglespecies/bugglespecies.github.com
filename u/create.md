@@ -23,4 +23,7 @@ image: /img/social.png
   </div>
   <input id="shortenedURL" type="text" class="form-control bg-darker" placeholder="http://buggle.ml/u/#buggle">
 </div>
+<div class="input-group mb-3">
+  <button id="sbtn" class="btn btn-primary text-dark">Shorten!</button>
+</div>
 <script type="text/javascript" src="/u/shorten.core.js"></script>
