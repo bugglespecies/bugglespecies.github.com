@@ -6,7 +6,7 @@ icon: fab fa-discord
 image: /img/social.png
 ---
 <h4 class="text-primary">Our Server Rules</h4>
-<table class="table">
+<table>
 	<tbody>
 		<tr>
 			<th scope="row">1.</th>
