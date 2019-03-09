@@ -25,5 +25,6 @@ image: /img/social.png
 </div>
 <div class="input-group mb-3">
   <button id="sbtn" class="btn btn-primary text-dark">Shorten!</button>
+  <span class="danger" id="erbox"></span>
 </div>
 <script type="text/javascript" src="/u/shorten.core.js"></script>
