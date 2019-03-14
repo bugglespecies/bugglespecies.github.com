@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: Remembering Freya
-author: Kelvin Da Buggle
+author: Buggle Staff
 summary: One of our members recently passed away. Today we remember her passing of cancer.
 image: /img/remembering-freya.jpg
 ---
