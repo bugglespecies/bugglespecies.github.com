@@ -35,7 +35,7 @@ $(function() {
     		'avatar_url': image
     	}, function() {
     		$('#statusBox').html('<span class="text-success">Announcement Posted!</span>');
-    	}
+    	})
   	})
 })
 </script>
