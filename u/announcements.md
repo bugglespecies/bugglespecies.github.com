@@ -27,13 +27,19 @@ var location = "https://canary.discordapp.com/api/webhooks/555515773247029259/";
 var username = "Buggle Staff"
 var image = "https://cdn.discordapp.com/icons/541806481683644438/a1d48057d40804d0464909783709f9b8.png?size=2048";
 
-$('#submit').click(function(e) {
-   	$.post(location + $('#token').val(), {
+var location = "https://canary.discordapp.com/api/webhooks/555515773247029259/";
+var username = "Buggle Staff"
+var image = "https://cdn.discordapp.com/icons/541806481683644438/a1d48057d40804d0464909783709f9b8.png?size=2048";
+
+$(function() {
+	$('#submit').click(function(e) {
+    	$.post(location + $('#token').val(), {
     		'content': $('#post').val(),
     		'username': username,
     		'avatar_url': image
     	}, function() {
     		$('#statusBox').html('<span class="text-success">Announcement Posted!</span>');
     	})
+  	})
 })
 </script>
