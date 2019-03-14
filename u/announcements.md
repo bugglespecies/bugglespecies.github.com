@@ -22,7 +22,26 @@ icon: fas fa-bullhorn
   <span id="statusBox"></span>
 </div>
 <script type="text/javascript">
-var location = "https://canary.discordapp.com/api/webhooks/555515773247029259/";
+
+var destination = "https://canary.discordapp.com/api/webhooks/555515773247029259/";
 var username = "Buggle Staff"
 var image = "https://cdn.discordapp.com/icons/541806481683644438/a1d48057d40804d0464909783709f9b8.png?size=2048";
+
+document.getElementById('submit').addEventListener('click', function(e) {
+	let authToken = document.getElementById('token').value;
+	let announcement = document.getElementById('post').value;
+	
+	if(authToken !== "" && announcement !== "") {
+		let request = new XMLHttpRequest();
+	
+		request.open('POST', destination + authToken);
+		request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+		request.send(JSON.stringify({
+			"username": username,
+			"avatar_url": image,
+			"content": announcement
+		}))
+	}
+})
+
 </script>
