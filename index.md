@@ -1,7 +1,7 @@
 ---
 layout: nil
 ---
-<div style="font-family: arial; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+<div style="font-family: verdana; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
 <h1>o3o</h1>
 <p>Notice: White.</p>
 <br>&nbsp;<br>
