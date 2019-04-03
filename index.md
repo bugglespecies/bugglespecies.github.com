@@ -1,5 +1,5 @@
 ---
-layout: nil
+layout: homepage
 ---
 <div style="font-family: 'Segoe UI'; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
 <h1>o3o</h1>
